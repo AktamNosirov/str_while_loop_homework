@@ -7,25 +7,16 @@ def main(s):
     Returns:
         int: return answer
     """
-    def punctuation(s):
-        ind=0
-        belgilar_list1=[]
-        while ind<len(s) :
-            if not (s[ind].isdigit() or s[ind].isalpha()):
-                belgilar_list1+=[s[ind]]
-            ind+=1
-        
-        return belgilar_list1
-        
+    
     index=0
     count=0
-    a=punctuation(s)
+   
     vovels=["a","e", "i"," o", "u"]
    
     while index<len(s):
-        if not ((s[index] in vovels or s[index].isdigit())) and s[index] not in a:
+        if s[index].isalpha() and s[index] not in vovels :
             count+=1
         index+=1
     return count
-print(main("a1sfgj 45"))
+print(main("a1sfgj ,.rtR 45"))
 
