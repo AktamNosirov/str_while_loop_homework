@@ -16,6 +16,7 @@ def main(s):
     while index<len(s):
         if s[index].isalpha() and s[index] not in vovels :
             count+=1
+            print(s[index])
         index+=1
     return count
 print(main("a1sfgj ,.rtR 45"))
