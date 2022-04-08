@@ -16,3 +16,4 @@ def main(s):
         index+=1
     return count 
 print(main("a1s"))
+
