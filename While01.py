@@ -9,12 +9,11 @@ def main(s):
     """
     index=0
     count=0
-    while s[index].isdigit() :
-        index+=1
-        count+=1
-        if index==len(s):
-            break 
-        
-    return count
-print(main("12345"))
+    while index<len(s):
+        if s[index].isdigit():
+            count+=1
+        else :        
+            index+=1
+    return count 
+print(main("python2022"))
    
