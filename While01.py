@@ -5,5 +5,13 @@ def main(s):
         s: str
     Returns:
         int: return answer
+        
     """
-    return
+    index=0
+    count=0
+    while s[index].isdigit() :
+        count+=1
+        index+=1
+    return count
+print(main("12345"))
+   
