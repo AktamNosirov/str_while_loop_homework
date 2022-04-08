@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    index=0
+    count=0
+    while index<len(s):
+        if s[index].isalpha():
+            count+=1
+        index+=1
+    return count 
+print(main("a7yjh65tyhh4"))
