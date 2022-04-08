@@ -13,5 +13,5 @@ def main(s):
         count+=1
         index+=1
     return count
-print(main("12345"))
+print(main("12345rg"))
    
