@@ -10,8 +10,11 @@ def main(s):
     index=0
     count=0
     while s[index].isdigit() :
-        count+=1
         index+=1
+        count+=1
+        if index==len(s):
+            break 
+        
     return count
-print(main("12345rg"))
+print(main("12345"))
    
