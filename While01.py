@@ -11,10 +11,8 @@ def main(s):
     count=0
     while index<len(s):
         if s[index].isdigit():
-            count+=1
-            index+=1
-        else :        
-            index+=1
+            count+=1  
+        index+=1
             
     return count 
 print(main("f3"))
