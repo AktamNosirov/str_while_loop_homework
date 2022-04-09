@@ -11,7 +11,7 @@ def main(s):
    
   
     while index<len(s):
-        if s[index].isdigit() :
+        if int(s[index])%2==0 :
             count+=1
            
         index+=1
