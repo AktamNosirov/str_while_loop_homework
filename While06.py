@@ -14,10 +14,10 @@ def main(s):
     vovels=["a","e", "i"," o", "u"]
    
     while index<len(s):
-        if s[index].isalpha() and s[index] not in vovels :
+        if s[index].isalpha() and not s[index] in vovels :
             count+=1
             print(s[index])
         index+=1
     return count
-print(main("a1sfgj ,.rtR 45"))
+print(main("CodeschoolUz"))
 

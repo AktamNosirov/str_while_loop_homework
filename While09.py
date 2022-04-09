@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    index=0
+    sum=0
+   
+  
+    while index<len(s):
+        if s[index].isdigit() :
+            sum+=int(s[index])
+           
+        index+=1
+    return sum
+print(main("235235"))

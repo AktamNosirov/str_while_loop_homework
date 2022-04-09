@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    index=0
+    sum=0
+   
+  
+    while index<len(s):
+        if int(s[index])%2==1 :
+            sum+=int(s[index])
+           
+        index+=1
+    return sum
+print(main("235235"))

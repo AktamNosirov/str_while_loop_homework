@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    index=0
+    count=0
+   
+  
+    while index<len(s):
+        if int(s[index])%2==1 :
+            count+=1
+           
+        index+=1
+    return count
+print(main("235235"))
