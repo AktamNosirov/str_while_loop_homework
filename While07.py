@@ -16,4 +16,4 @@ def main(s):
            
         index+=1
     return count
-print(main("Codes56ch8oolUz55"))
+print(main("2352356"))
