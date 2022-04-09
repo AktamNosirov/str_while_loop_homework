@@ -11,7 +11,7 @@ def main(s):
     index=0
     count=0
    
-    vovels=["a","e", "i"," o", "u"]
+    vovels=["a","e", "i"," o", "u", "A","E", "I"," O", "U"]
    
     while index<len(s):
         if s[index].isalpha() and not s[index] in vovels :
