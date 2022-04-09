@@ -16,8 +16,8 @@ def main(s):
     while index<len(s):
         if s[index].isalpha() and not s[index] in vovels :
             count+=1
-            print(s[index])
+           
         index+=1
     return count
-print(main("CodeschoolUz"))
+print(main("asdgsgsty"))
 
